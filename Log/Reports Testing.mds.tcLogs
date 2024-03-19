@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45365.6053637384"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{89729675-4682-4B28-8F15-63156CC1268B}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [OpenApp_LoadToolbar_2023]"/>
+				<Prp name="relpath" type="S" value="3_14_2024_2_31 PM_43_428\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45365.6117998495"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3100DCD0-B7AE-4EA8-8E53-AF087FC2B736}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Battery_Calculations_2023]"/>
+				<Prp name="relpath" type="S" value="3_14_2024_2_40 PM_59_508\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45365.6158818634"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{59CF0B1B-89D7-4D64-A478-C036C9963173}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Circuit_Calculations_2023]"/>
+				<Prp name="relpath" type="S" value="3_14_2024_2_46 PM_52_193\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45365.6601259838"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{10B337BC-A85C-4CD0-9FF0-A5C4EAFF5200}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Battery_Calculations_2023]"/>
+				<Prp name="relpath" type="S" value="3_14_2024_3_50 PM_34_885\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45365.6718427894"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{426D1630-BB06-43BF-A432-744852A4E5A1}"/>
+				<Prp name="nameofroot" type="S" value="Keyword Test Log [Battery_Calculations_2023]"/>
+				<Prp name="relpath" type="S" value="3_14_2024_4_07 PM_27_217\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

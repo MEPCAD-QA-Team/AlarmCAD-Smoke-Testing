@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 7">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The toolbar button 'Reports' was checked."/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6860159144"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.Afx.toolbarAlarmTools&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:00000000002B034B&quot;, &quot;AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]&quot;, 1).Window(&quot;Afx:DockPane:40000000:8:10003:10&quot;, &quot;&quot;, 1).Window(&quot;Afx:ToolBar:40000000:8:10003:10&quot;, &quot;Alarm Tools&quot;, 2))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 10">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6860252546"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.AlarmCADx64.dlgCircuitCalculationReport.btnOK&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;#32770&quot;, &quot;Circuit Calculation Report&quot;, 1).Window(&quot;Button&quot;, &quot;OK&quot;, 10))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{098F1A8D-F751-4AFC-ADF2-9E80F9A82CC3}"/>
+		</Node>
+		<Node name="message 5">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6860105208"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.AlarmCADx64.dlgCircuitCalculationReport.btnOK&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;#32770&quot;, &quot;Circuit Calculation Report&quot;, 1).Window(&quot;Button&quot;, &quot;OK&quot;, 10))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window 'AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]' still exists in the system after the close command was used."/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6860993403"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="The close command was sent to the window, but the window still exists after the timeout has elapsed (2000 ms).&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:00000000002B034B&quot;, &quot;AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]&quot;, 1))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 13">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Toolbar button 5 was double-clicked."/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6860307986"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (187, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.Afx2.View&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:00000000002B034B&quot;, &quot;AlarmCAD® 2023 Professional - [Drawing1]&quot;, 1).Window(&quot;Afx:DockPane:40000000:8:10003:10&quot;, &quot;&quot;, 3).Window(&quot;Afx:ToolBar:40000000:8:10003:10&quot;, &quot;View&quot;, 7))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 9">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 'Panel:P6' was selected."/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6860241088"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.AlarmCADx64.dlgCircuitCalculationReport.ComboBox&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;#32770&quot;, &quot;Circuit Calculation Report&quot;, 1).Window(&quot;ComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 11">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6860276389"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (998, 548) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.MDIClient.wndAfx.AfxFrameOrView140u.Afx.Model&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:00000000002B034B&quot;, &quot;AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]&quot;, 1).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).Window(&quot;Afx:0000000140000000:b:0000000000010003:0000000000000006:0000000001EB0C75&quot;, &quot;AlarmCAD Battery Calc - Smoke Test File.cad&quot;, 1).Window(&quot;AfxFrameOrView140u&quot;, &quot;&quot;, 1).Window(&quot;Afx:TabWnd:40000000:8:10003:10&quot;, &quot;&quot;, 1).Window(&quot;Afx:0000000140000000:2b:0000000000000000:00000000B8102C14:0000000000000000&quot;, &quot;Model&quot;, 1))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="picture" type="S" value="Picture22.png;Picture23.png;Picture24.png"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The region checkpoint &quot;CircuitCalcs_P6_NAC2_Check&quot; passed."/>
+			<Prp name="line no" type="I" value="24"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6860747106"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;a href=&quot;projectnode://{73C2F169-745E-4CB1-A37D-E559A33C1556}&quot;&gt; Click here to show or modify data of the checkpoint &quot;CircuitCalcs_P6_NAC2_Check&quot;. &lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 6">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6860137963"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (998, 506) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.MDIClient.wndAfx.AfxFrameOrView140u.Afx.Model&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:00000000002B034B&quot;, &quot;AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]&quot;, 1).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).Window(&quot;Afx:0000000140000000:b:0000000000010003:0000000000000006:0000000001EB0C75&quot;, &quot;AlarmCAD Battery Calc - Smoke Test File.cad&quot;, 1).Window(&quot;AfxFrameOrView140u&quot;, &quot;&quot;, 1).Window(&quot;Afx:TabWnd:40000000:8:10003:10&quot;, &quot;&quot;, 1).Window(&quot;Afx:0000000140000000:2b:0000000000000000:00000000B8102C14:0000000000000000&quot;, &quot;Model&quot;, 1))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="picture" type="S" value="Picture19.png;Picture20.png;Picture21.png"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The region checkpoint &quot;CircuitCalcs_P5_SLC1_Check&quot; passed."/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6860687963"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;a href=&quot;projectnode://{94FA2A9C-869C-42BF-9EA3-E80D710ACD92}&quot;&gt; Click here to show or modify data of the checkpoint &quot;CircuitCalcs_P5_SLC1_Check&quot;. &lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 22">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6861003009"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.AlarmCADx64.dlgAlarmCAD2023.btnNo&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;#32770&quot;, &quot;AlarmCAD 2023&quot;, 1).Window(&quot;Button&quot;, &quot;&amp;No&quot;, 2))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 17">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Toolbar button 5 was clicked."/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6860625231"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (187, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.Afx2.View&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:00000000002B034B&quot;, &quot;AlarmCAD® 2023 Professional - [Drawing1]&quot;, 1).Window(&quot;Afx:DockPane:40000000:8:10003:10&quot;, &quot;&quot;, 3).Window(&quot;Afx:ToolBar:40000000:8:10003:10&quot;, &quot;View&quot;, 7))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 15">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Toolbar button 5 was clicked."/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.686046331"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (187, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.Afx2.View&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:00000000002B034B&quot;, &quot;AlarmCAD® 2023 Professional - [Drawing1]&quot;, 1).Window(&quot;Afx:DockPane:40000000:8:10003:10&quot;, &quot;&quot;, 3).Window(&quot;Afx:ToolBar:40000000:8:10003:10&quot;, &quot;View&quot;, 7))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 16">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Toolbar button 5 was clicked."/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6860545486"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (187, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.Afx2.View&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:00000000002B034B&quot;, &quot;AlarmCAD® 2023 Professional - [Drawing1]&quot;, 1).Window(&quot;Afx:DockPane:40000000:8:10003:10&quot;, &quot;&quot;, 3).Window(&quot;Afx:ToolBar:40000000:8:10003:10&quot;, &quot;View&quot;, 7))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 8">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6860181134"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.AlarmCADx64.dlgSelectDesiredReport.btnOK&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;#32770&quot;, &quot;Select Desired Report&quot;, 1).Window(&quot;Button&quot;, &quot;OK&quot;, 30))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 1">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The toolbar button 'Reports' was checked."/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6859998843"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.Afx.toolbarAlarmTools&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:00000000002B034B&quot;, &quot;AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]&quot;, 1).Window(&quot;Afx:DockPane:40000000:8:10003:10&quot;, &quot;&quot;, 1).Window(&quot;Afx:ToolBar:40000000:8:10003:10&quot;, &quot;Alarm Tools&quot;, 2))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 4">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 'Panel:P5' was selected."/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6860095718"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.AlarmCADx64.dlgCircuitCalculationReport.ComboBox&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;#32770&quot;, &quot;Circuit Calculation Report&quot;, 1).Window(&quot;ComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 14">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Toolbar button 5 was double-clicked."/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6860386921"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (187, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.Afx2.View&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:00000000002B034B&quot;, &quot;AlarmCAD® 2023 Professional - [Drawing1]&quot;, 1).Window(&quot;Afx:DockPane:40000000:8:10003:10&quot;, &quot;&quot;, 3).Window(&quot;Afx:ToolBar:40000000:8:10003:10&quot;, &quot;View&quot;, 7))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="Toolbar button 2 was clicked."/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6859987384"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (56, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.Afx2.View&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:00000000002B034B&quot;, &quot;AlarmCAD® 2023 Professional - [Drawing1]&quot;, 1).Window(&quot;Afx:DockPane:40000000:8:10003:10&quot;, &quot;&quot;, 3).Window(&quot;Afx:ToolBar:40000000:8:10003:10&quot;, &quot;View&quot;, 7))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 2">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The radio button was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6860020949"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="The control state has been changed to 'checked'.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.dlgSelectDesiredReport.radioCircuitCalculations&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;#32770&quot;, &quot;Select Desired Report&quot;, 1).Window(&quot;Button&quot;, &quot;Circuit Calculations&quot;, 9))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 12">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6860292708"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (1038, 508) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.MDIClient.wndAfx.AfxFrameOrView140u.Afx.Model&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:00000000002B034B&quot;, &quot;AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]&quot;, 1).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).Window(&quot;Afx:0000000140000000:b:0000000000010003:0000000000000006:0000000001EB0C75&quot;, &quot;AlarmCAD Battery Calc - Smoke Test File.cad&quot;, 1).Window(&quot;AfxFrameOrView140u&quot;, &quot;&quot;, 1).Window(&quot;Afx:TabWnd:40000000:8:10003:10&quot;, &quot;&quot;, 1).Window(&quot;Afx:0000000140000000:2b:0000000000000000:00000000B8102C14:0000000000000000&quot;, &quot;Model&quot;, 1))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 19">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6860698264"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="A click at point (649, 760) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.MDIClient.wndAfx.AfxFrameOrView140u.Afx.Model&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:00000000002B034B&quot;, &quot;AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]&quot;, 1).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).Window(&quot;Afx:0000000140000000:b:0000000000010003:0000000000000006:0000000001EB0C75&quot;, &quot;AlarmCAD Battery Calc - Smoke Test File.cad&quot;, 1).Window(&quot;AfxFrameOrView140u&quot;, &quot;&quot;, 1).Window(&quot;Afx:TabWnd:40000000:8:10003:10&quot;, &quot;&quot;, 1).Window(&quot;Afx:0000000140000000:2b:0000000000000000:00000000B8102C14:0000000000000000&quot;, &quot;Model&quot;, 1))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 3">
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="date" type="D" value="45365.6860034722"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.AlarmCADx64.dlgSelectDesiredReport.btnOK&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;#32770&quot;, &quot;Select Desired Report&quot;, 1).Window(&quot;Button&quot;, &quot;OK&quot;, 30))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

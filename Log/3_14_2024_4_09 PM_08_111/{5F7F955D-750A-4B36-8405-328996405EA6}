@@ -1,0 +1,1540 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="1019"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="1032"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.Afx2.View"/>
+					<Prp name="object right" type="I" value="898"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9241244213"/>
+					<Prp name="object left" type="I" value="458"/>
+					<Prp name="click point x" type="I" value="654"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="1007"/>
+					<Prp name="image file name" type="S" value="visImage59.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="1019"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="1032"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.Afx2.View"/>
+					<Prp name="object right" type="I" value="898"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9241244213"/>
+					<Prp name="object left" type="I" value="458"/>
+					<Prp name="click point x" type="I" value="654"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="1007"/>
+					<Prp name="image file name" type="S" value="tcvi355831906248423.png"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="remarks" type="S" value="A click at point (187, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.Afx2.View&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:000000000121171B&quot;, &quot;AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]&quot;, 1).Window(&quot;Afx:DockPane:40000000:8:10003:10&quot;, &quot;&quot;, 3).Window(&quot;Afx:ToolBar:40000000:8:10003:10&quot;, &quot;View&quot;, 7))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6741389815"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Toolbar button 5 was clicked."/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="326"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="338"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.dlgSelectDesiredReport.btnOK"/>
+					<Prp name="object right" type="I" value="317"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9239101042"/>
+					<Prp name="object left" type="I" value="242"/>
+					<Prp name="click point x" type="I" value="279"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="315"/>
+					<Prp name="image file name" type="S" value="visImage44.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="326"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="338"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.dlgSelectDesiredReport.btnOK"/>
+					<Prp name="object right" type="I" value="317"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9239101042"/>
+					<Prp name="object left" type="I" value="242"/>
+					<Prp name="click point x" type="I" value="279"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="315"/>
+					<Prp name="image file name" type="S" value="tcvi35578804624843.png"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.AlarmCADx64.dlgSelectDesiredReport.btnOK&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;#32770&quot;, &quot;Select Desired Report&quot;, 1).Window(&quot;Button&quot;, &quot;OK&quot;, 30))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6739182639"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="1019"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="1032"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.Afx2.View"/>
+					<Prp name="object right" type="I" value="898"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9238679977"/>
+					<Prp name="object left" type="I" value="458"/>
+					<Prp name="click point x" type="I" value="523"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="1007"/>
+					<Prp name="image file name" type="S" value="visImage41.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="1019"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="1032"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.Afx2.View"/>
+					<Prp name="object right" type="I" value="898"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9238679977"/>
+					<Prp name="object left" type="I" value="458"/>
+					<Prp name="click point x" type="I" value="523"/>
+					<Prp name="line #" type="I" value="0"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="1007"/>
+					<Prp name="image file name" type="S" value="tcvi35577739024840.png"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="remarks" type="S" value="A click at point (56, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.Afx2.View&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:000000000121171B&quot;, &quot;AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]&quot;, 1).Window(&quot;Afx:DockPane:40000000:8:10003:10&quot;, &quot;&quot;, 3).Window(&quot;Afx:ToolBar:40000000:8:10003:10&quot;, &quot;View&quot;, 7))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6738823264"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Toolbar button 2 was clicked."/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="73"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.dlgCircuitCalculationReport.ComboBox"/>
+					<Prp name="object right" type="I" value="293"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9239319792"/>
+					<Prp name="object left" type="I" value="23"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="52"/>
+					<Prp name="image file name" type="S" value="visImage45.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="73"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.dlgCircuitCalculationReport.ComboBox"/>
+					<Prp name="object right" type="I" value="293"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9239319792"/>
+					<Prp name="object left" type="I" value="23"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="52"/>
+					<Prp name="image file name" type="S" value="tcvi35579410924847.png"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.AlarmCADx64.dlgCircuitCalculationReport.ComboBox&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;#32770&quot;, &quot;Circuit Calculation Report&quot;, 1).Window(&quot;ComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6739402778"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 'Panel:P5' was selected."/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="326"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="338"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.dlgSelectDesiredReport.btnOK"/>
+					<Prp name="object right" type="I" value="317"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.923985787"/>
+					<Prp name="object left" type="I" value="242"/>
+					<Prp name="click point x" type="I" value="279"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="315"/>
+					<Prp name="image file name" type="S" value="visImage49.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="326"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="338"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.dlgSelectDesiredReport.btnOK"/>
+					<Prp name="object right" type="I" value="317"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.923985787"/>
+					<Prp name="object left" type="I" value="242"/>
+					<Prp name="click point x" type="I" value="279"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="315"/>
+					<Prp name="image file name" type="S" value="tcvi355805703248411.png"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.AlarmCADx64.dlgSelectDesiredReport.btnOK&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;#32770&quot;, &quot;Select Desired Report&quot;, 1).Window(&quot;Button&quot;, &quot;OK&quot;, 30))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6739947569"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 21">
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="id" type="I" value="21"/>
+			<Prp name="remarks" type="S" value="The close command was sent to the window, but the window still exists after the timeout has elapsed (2000 ms).&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:000000000121171B&quot;, &quot;AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]&quot;, 1))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6742045718"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="25"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window 'AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]' still exists in the system after the close command was used."/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="1019"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="1032"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.Afx2.View"/>
+					<Prp name="object right" type="I" value="898"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9240604977"/>
+					<Prp name="object left" type="I" value="458"/>
+					<Prp name="click point x" type="I" value="654"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="1007"/>
+					<Prp name="image file name" type="S" value="visImage55.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="1019"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="1032"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.Afx2.View"/>
+					<Prp name="object right" type="I" value="898"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9240604977"/>
+					<Prp name="object left" type="I" value="458"/>
+					<Prp name="click point x" type="I" value="654"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="1007"/>
+					<Prp name="image file name" type="S" value="tcvi355826031248419.png"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="remarks" type="S" value="A click at point (187, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.Afx2.View&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:000000000121171B&quot;, &quot;AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]&quot;, 1).Window(&quot;Afx:DockPane:40000000:8:10003:10&quot;, &quot;&quot;, 3).Window(&quot;Afx:ToolBar:40000000:8:10003:10&quot;, &quot;View&quot;, 7))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6740764005"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Toolbar button 5 was double-clicked."/>
+		</Node>
+		<Node name="message 19">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="909"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="963"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.MDIClient.wndAfx.AfxFrameOrView140u.Afx.Afx"/>
+					<Prp name="object right" type="I" value="1887"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9241458796"/>
+					<Prp name="object left" type="I" value="337"/>
+					<Prp name="click point x" type="I" value="986"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="149"/>
+					<Prp name="image file name" type="S" value="visImage60.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="909"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="963"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.MDIClient.wndAfx.AfxFrameOrView140u.Afx.Afx"/>
+					<Prp name="object right" type="I" value="1887"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9241458796"/>
+					<Prp name="object left" type="I" value="337"/>
+					<Prp name="click point x" type="I" value="986"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="149"/>
+					<Prp name="image file name" type="S" value="tcvi355922875248424.png"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="19"/>
+			<Prp name="remarks" type="S" value="A click at point (649, 760) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.MDIClient.wndAfx.AfxFrameOrView140u.Afx.Model&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:000000000121171B&quot;, &quot;AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]&quot;, 1).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).Window(&quot;Afx:0000000140000000:b:0000000000010003:0000000000000006:0000000005521E13&quot;, &quot;AlarmCAD Battery Calc - Smoke Test File.cad&quot;, 1).Window(&quot;AfxFrameOrView140u&quot;, &quot;&quot;, 1).Window(&quot;Afx:TabWnd:40000000:8:10003:10&quot;, &quot;&quot;, 1).Window(&quot;Afx:0000000140000000:2b:0000000000000000:0000000021102BD0:0000000000000000&quot;, &quot;Model&quot;, 1))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6741604051"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="697"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="963"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.MDIClient.wndAfx.AfxFrameOrView140u.Afx.Afx"/>
+					<Prp name="object right" type="I" value="1887"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9240272917"/>
+					<Prp name="object left" type="I" value="337"/>
+					<Prp name="click point x" type="I" value="1335"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="149"/>
+					<Prp name="image file name" type="S" value="visImage53.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="697"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="963"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.MDIClient.wndAfx.AfxFrameOrView140u.Afx.Afx"/>
+					<Prp name="object right" type="I" value="1887"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9240272917"/>
+					<Prp name="object left" type="I" value="337"/>
+					<Prp name="click point x" type="I" value="1335"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="149"/>
+					<Prp name="image file name" type="S" value="tcvi355817656248417.png"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="remarks" type="S" value="A click at point (998, 548) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.MDIClient.wndAfx.AfxFrameOrView140u.Afx.Model&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:000000000121171B&quot;, &quot;AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]&quot;, 1).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).Window(&quot;Afx:0000000140000000:b:0000000000010003:0000000000000006:0000000005521E13&quot;, &quot;AlarmCAD Battery Calc - Smoke Test File.cad&quot;, 1).Window(&quot;AfxFrameOrView140u&quot;, &quot;&quot;, 1).Window(&quot;Afx:TabWnd:40000000:8:10003:10&quot;, &quot;&quot;, 1).Window(&quot;Afx:0000000140000000:2b:0000000000000000:0000000021102BD0:0000000000000000&quot;, &quot;Model&quot;, 1))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6740441204"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="499"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="511"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.dlgCircuitCalculationReport.btnOK"/>
+					<Prp name="object right" type="I" value="298"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9240177431"/>
+					<Prp name="object left" type="I" value="196"/>
+					<Prp name="click point x" type="I" value="247"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="488"/>
+					<Prp name="image file name" type="S" value="visImage52.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="499"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="511"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.dlgCircuitCalculationReport.btnOK"/>
+					<Prp name="object right" type="I" value="298"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9240177431"/>
+					<Prp name="object left" type="I" value="196"/>
+					<Prp name="click point x" type="I" value="247"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="488"/>
+					<Prp name="image file name" type="S" value="tcvi355812125248416.png"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.AlarmCADx64.dlgCircuitCalculationReport.btnOK&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;#32770&quot;, &quot;Circuit Calculation Report&quot;, 1).Window(&quot;Button&quot;, &quot;OK&quot;, 10))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6740254514"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="655"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="963"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.MDIClient.wndAfx.AfxFrameOrView140u.Afx.Afx"/>
+					<Prp name="object right" type="I" value="1887"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9239513542"/>
+					<Prp name="object left" type="I" value="337"/>
+					<Prp name="click point x" type="I" value="1335"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="149"/>
+					<Prp name="image file name" type="S" value="visImage47.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="655"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="963"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.MDIClient.wndAfx.AfxFrameOrView140u.Afx.Afx"/>
+					<Prp name="object right" type="I" value="1887"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9239513542"/>
+					<Prp name="object left" type="I" value="337"/>
+					<Prp name="click point x" type="I" value="1335"/>
+					<Prp name="line #" type="I" value="8"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="149"/>
+					<Prp name="image file name" type="S" value="tcvi35580176524849.png"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="remarks" type="S" value="A click at point (998, 506) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.MDIClient.wndAfx.AfxFrameOrView140u.Afx.Model&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:000000000121171B&quot;, &quot;AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]&quot;, 1).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).Window(&quot;Afx:0000000140000000:b:0000000000010003:0000000000000006:0000000005521E13&quot;, &quot;AlarmCAD Battery Calc - Smoke Test File.cad&quot;, 1).Window(&quot;AfxFrameOrView140u&quot;, &quot;&quot;, 1).Window(&quot;Afx:TabWnd:40000000:8:10003:10&quot;, &quot;&quot;, 1).Window(&quot;Afx:0000000140000000:2b:0000000000000000:0000000021102BD0:0000000000000000&quot;, &quot;Model&quot;, 1))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6739669329"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="8"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="97"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="123"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.Afx.toolbarAlarmTools"/>
+					<Prp name="object right" type="I" value="1721"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9239685764"/>
+					<Prp name="object left" type="I" value="488"/>
+					<Prp name="click point x" type="I" value="1657"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="71"/>
+					<Prp name="image file name" type="S" value="visImage48.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="97"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="123"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.Afx.toolbarAlarmTools"/>
+					<Prp name="object right" type="I" value="1721"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9239685764"/>
+					<Prp name="object left" type="I" value="488"/>
+					<Prp name="click point x" type="I" value="1657"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="71"/>
+					<Prp name="image file name" type="S" value="tcvi355804203248410.png"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.Afx.toolbarAlarmTools&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:000000000121171B&quot;, &quot;AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]&quot;, 1).Window(&quot;Afx:DockPane:40000000:8:10003:10&quot;, &quot;&quot;, 1).Window(&quot;Afx:ToolBar:40000000:8:10003:10&quot;, &quot;Alarm Tools&quot;, 2))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6739837847"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The toolbar button 'Reports' was checked."/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="187"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="195"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.dlgSelectDesiredReport.radioCircuitCalculations"/>
+					<Prp name="object right" type="I" value="212"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9239002431"/>
+					<Prp name="object left" type="I" value="62"/>
+					<Prp name="click point x" type="I" value="137"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="179"/>
+					<Prp name="image file name" type="S" value="visImage43.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="187"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="195"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.dlgSelectDesiredReport.radioCircuitCalculations"/>
+					<Prp name="object right" type="I" value="212"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9239002431"/>
+					<Prp name="object left" type="I" value="62"/>
+					<Prp name="click point x" type="I" value="137"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="179"/>
+					<Prp name="image file name" type="S" value="tcvi35578654624842.png"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="remarks" type="S" value="The control state has been changed to 'checked'.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.dlgSelectDesiredReport.radioCircuitCalculations&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;#32770&quot;, &quot;Select Desired Report&quot;, 1).Window(&quot;Button&quot;, &quot;Circuit Calculations&quot;, 9))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.673909213"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The radio button was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="1019"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="1032"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.Afx2.View"/>
+					<Prp name="object right" type="I" value="898"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9241087847"/>
+					<Prp name="object left" type="I" value="458"/>
+					<Prp name="click point x" type="I" value="654"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="1007"/>
+					<Prp name="image file name" type="S" value="visImage58.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="1019"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="1032"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.Afx2.View"/>
+					<Prp name="object right" type="I" value="898"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9241087847"/>
+					<Prp name="object left" type="I" value="458"/>
+					<Prp name="click point x" type="I" value="654"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="1007"/>
+					<Prp name="image file name" type="S" value="tcvi355828093248422.png"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="remarks" type="S" value="A click at point (187, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.Afx2.View&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:000000000121171B&quot;, &quot;AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]&quot;, 1).Window(&quot;Afx:DockPane:40000000:8:10003:10&quot;, &quot;&quot;, 3).Window(&quot;Afx:ToolBar:40000000:8:10003:10&quot;, &quot;View&quot;, 7))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6741237268"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Toolbar button 5 was clicked."/>
+		</Node>
+		<Node name="message 22">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="130"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="142"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.dlgAlarmCAD2023.btnNo"/>
+					<Prp name="object right" type="I" value="316"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9242051273"/>
+					<Prp name="object left" type="I" value="241"/>
+					<Prp name="click point x" type="I" value="278"/>
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="119"/>
+					<Prp name="image file name" type="S" value="visImage62.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="130"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="142"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.dlgAlarmCAD2023.btnNo"/>
+					<Prp name="object right" type="I" value="316"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9242051273"/>
+					<Prp name="object left" type="I" value="241"/>
+					<Prp name="click point x" type="I" value="278"/>
+					<Prp name="line #" type="I" value="26"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="119"/>
+					<Prp name="image file name" type="S" value="tcvi366437437310282.png"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="22"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.AlarmCADx64.dlgAlarmCAD2023.btnNo&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;#32770&quot;, &quot;AlarmCAD 2023&quot;, 1).Window(&quot;Button&quot;, &quot;&amp;No&quot;, 2))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6742113773"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="26"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 18">
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="id" type="I" value="18"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;a href=&quot;projectnode://{94FA2A9C-869C-42BF-9EA3-E80D710ACD92}&quot;&gt; Click here to show or modify data of the checkpoint &quot;CircuitCalcs_P5_SLC1_Check&quot;. &lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6741452894"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="picture" type="S" value="Picture19.png;Picture20.png;Picture21.png"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="message" type="S" value="The region checkpoint &quot;CircuitCalcs_P5_SLC1_Check&quot; passed."/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="499"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="511"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.dlgCircuitCalculationReport.btnOK"/>
+					<Prp name="object right" type="I" value="298"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9239411458"/>
+					<Prp name="object left" type="I" value="196"/>
+					<Prp name="click point x" type="I" value="247"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="488"/>
+					<Prp name="image file name" type="S" value="visImage46.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="499"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="511"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.dlgCircuitCalculationReport.btnOK"/>
+					<Prp name="object right" type="I" value="298"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9239411458"/>
+					<Prp name="object left" type="I" value="196"/>
+					<Prp name="click point x" type="I" value="247"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="488"/>
+					<Prp name="image file name" type="S" value="tcvi35579721824848.png"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.AlarmCADx64.dlgCircuitCalculationReport.btnOK&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;#32770&quot;, &quot;Circuit Calculation Report&quot;, 1).Window(&quot;Button&quot;, &quot;OK&quot;, 10))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6739491782"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="657"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="963"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.MDIClient.wndAfx.AfxFrameOrView140u.Afx.Afx"/>
+					<Prp name="object right" type="I" value="1887"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9240451736"/>
+					<Prp name="object left" type="I" value="337"/>
+					<Prp name="click point x" type="I" value="1375"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="149"/>
+					<Prp name="image file name" type="S" value="visImage54.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="657"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="963"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.MDIClient.wndAfx.AfxFrameOrView140u.Afx.Afx"/>
+					<Prp name="object right" type="I" value="1887"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9240451736"/>
+					<Prp name="object left" type="I" value="337"/>
+					<Prp name="click point x" type="I" value="1375"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="149"/>
+					<Prp name="image file name" type="S" value="tcvi355823359248418.png"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="remarks" type="S" value="A click at point (1038, 508) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.MDIClient.wndAfx.AfxFrameOrView140u.Afx.Model&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:000000000121171B&quot;, &quot;AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]&quot;, 1).Window(&quot;MDIClient&quot;, &quot;&quot;, 1).Window(&quot;Afx:0000000140000000:b:0000000000010003:0000000000000006:0000000005521E13&quot;, &quot;AlarmCAD Battery Calc - Smoke Test File.cad&quot;, 1).Window(&quot;AfxFrameOrView140u&quot;, &quot;&quot;, 1).Window(&quot;Afx:TabWnd:40000000:8:10003:10&quot;, &quot;&quot;, 1).Window(&quot;Afx:0000000140000000:2b:0000000000000000:0000000021102BD0:0000000000000000&quot;, &quot;Model&quot;, 1))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6740595139"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="1019"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="1032"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.Afx2.View"/>
+					<Prp name="object right" type="I" value="898"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9240772801"/>
+					<Prp name="object left" type="I" value="458"/>
+					<Prp name="click point x" type="I" value="654"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="1007"/>
+					<Prp name="image file name" type="S" value="visImage56.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="1019"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="1032"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.Afx2.View"/>
+					<Prp name="object right" type="I" value="898"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9240772801"/>
+					<Prp name="object left" type="I" value="458"/>
+					<Prp name="click point x" type="I" value="654"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="1007"/>
+					<Prp name="image file name" type="S" value="tcvi355826750248420.png"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="remarks" type="S" value="A click at point (187, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.Afx2.View&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:000000000121171B&quot;, &quot;AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]&quot;, 1).Window(&quot;Afx:DockPane:40000000:8:10003:10&quot;, &quot;&quot;, 3).Window(&quot;Afx:ToolBar:40000000:8:10003:10&quot;, &quot;View&quot;, 7))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.674092662"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Toolbar button 5 was double-clicked."/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="97"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="123"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.Afx.toolbarAlarmTools"/>
+					<Prp name="object right" type="I" value="1721"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9238834375"/>
+					<Prp name="object left" type="I" value="488"/>
+					<Prp name="click point x" type="I" value="1657"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="71"/>
+					<Prp name="image file name" type="S" value="visImage42.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="97"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="123"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.Afx.toolbarAlarmTools"/>
+					<Prp name="object right" type="I" value="1721"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9238834375"/>
+					<Prp name="object left" type="I" value="488"/>
+					<Prp name="click point x" type="I" value="1657"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="71"/>
+					<Prp name="image file name" type="S" value="tcvi35578365624841.png"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.Afx.toolbarAlarmTools&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:000000000121171B&quot;, &quot;AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]&quot;, 1).Window(&quot;Afx:DockPane:40000000:8:10003:10&quot;, &quot;&quot;, 1).Window(&quot;Afx:ToolBar:40000000:8:10003:10&quot;, &quot;Alarm Tools&quot;, 2))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6738984491"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The toolbar button 'Reports' was checked."/>
+		</Node>
+		<Node name="message 20">
+			<Prp name="type" type="I" value="7"/>
+			<Prp name="id" type="I" value="20"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;body&gt;&lt;a href=&quot;projectnode://{73C2F169-745E-4CB1-A37D-E559A33C1556}&quot;&gt; Click here to show or modify data of the checkpoint &quot;CircuitCalcs_P6_NAC2_Check&quot;. &lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;/body&gt;&lt;/html&gt;"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6741658796"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="24"/>
+			<Prp name="picture" type="S" value="Picture22.png;Picture23.png;Picture24.png"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="message" type="S" value="The region checkpoint &quot;CircuitCalcs_P6_NAC2_Check&quot; passed."/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="1019"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="1032"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.Afx2.View"/>
+					<Prp name="object right" type="I" value="898"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9240934607"/>
+					<Prp name="object left" type="I" value="458"/>
+					<Prp name="click point x" type="I" value="654"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="1007"/>
+					<Prp name="image file name" type="S" value="visImage57.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="1019"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="1032"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.wndAfx.Afx2.View"/>
+					<Prp name="object right" type="I" value="898"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9240934607"/>
+					<Prp name="object left" type="I" value="458"/>
+					<Prp name="click point x" type="I" value="654"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="1007"/>
+					<Prp name="image file name" type="S" value="tcvi355827437248421.png"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="remarks" type="S" value="A click at point (187, 10) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.AlarmCADx64.wndAfx.Afx2.View&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;Afx:0000000140000000:8:0000000000010003:0000000000000000:000000000121171B&quot;, &quot;AlarmCAD® 2023 Professional - [AlarmCAD Battery Calc - Smoke Test File.cad]&quot;, 1).Window(&quot;Afx:DockPane:40000000:8:10003:10&quot;, &quot;&quot;, 3).Window(&quot;Afx:ToolBar:40000000:8:10003:10&quot;, &quot;View&quot;, 7))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6741077778"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="Toolbar button 5 was clicked."/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{098F1A8D-F751-4AFC-ADF2-9E80F9A82CC3}"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="image file name" type="S" value=""/>
+				</Node>
+				<Node name="current">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="73"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.dlgCircuitCalculationReport.ComboBox"/>
+					<Prp name="object right" type="I" value="293"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9240084838"/>
+					<Prp name="object left" type="I" value="23"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="52"/>
+					<Prp name="image file name" type="S" value="visImage51.png"/>
+				</Node>
+				<Node name="original">
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="object bottom" type="I" value="73"/>
+					<Prp name="object name" type="S" value="Aliases.AlarmCADx64.dlgCircuitCalculationReport.ComboBox"/>
+					<Prp name="object right" type="I" value="293"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="datetime" type="D" value="45365.9240084838"/>
+					<Prp name="object left" type="I" value="23"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object top" type="I" value="52"/>
+					<Prp name="image file name" type="S" value="tcvi355808609248414.png"/>
+				</Node>
+			</Node>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.AlarmCADx64.dlgCircuitCalculationReport.ComboBox&#xA;(Sys.Process(&quot;AlarmCADx64&quot;).Window(&quot;#32770&quot;, &quot;Circuit Calculation Report&quot;, 1).Window(&quot;ComboBox&quot;, &quot;&quot;, 1))"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="linkmessage" type="S" value=""/>
+			<Prp name="date" type="D" value="45365.6740169097"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="message" type="S" value="The combo box item 'Panel:P6' was selected."/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

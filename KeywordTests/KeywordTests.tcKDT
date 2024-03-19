@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<child name="Battery_Calculations_2023" key="{999FA5E1-3F31-475C-B08F-5FB042F6F873}" path="Battery_Calculations_2023.tcKDTest" />
+		<child name="Circuit_Calculations_2023" key="{098F1A8D-F751-4AFC-ADF2-9E80F9A82CC3}" path="Circuit_Calculations_2023.tcKDTest" />
+		<child name="OpenApp_LoadToolbar_2023" key="{AE5F7F14-BB06-4D96-8449-DECEE7EE771B}" path="OpenApp_LoadToolbar_2023.tcKDTest" />
+		<child name="OpenApp_LoadToolbar_2024" key="{73B5096F-F0DF-499C-985A-5882AD192DDC}" path="OpenApp_LoadToolbar_2024.tcKDTest" />
+		<child name="Battery_Calculations_2024" key="{8C09C5D9-1FF8-4C80-A974-923BF2EC2165}" path="Battery_Calculations_2024.tcKDTest" />
+		<child name="Circuit_Calculations_2024" key="{35F384AB-BDBE-40CE-8F5F-05F6E0909F80}" path="Circuit_Calculations_2024.tcKDTest" />
+	</children>
+</Root>

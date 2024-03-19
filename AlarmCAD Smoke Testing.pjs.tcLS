@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{07ad6294-784b-43ba-b0c8-4f55ec8538ca}">
+				<Prp name="relpath" type="S" value="Reports Testing.mds.tcLS"/>
+			</Node>
+			<Node name="{1ba0df2e-7386-4efe-a765-351aa0c83d53}">
+				<Prp name="relpath" type="S" value="testproject1\TestProject1\TestProject1.mds.tcLS"/>
+			</Node>
+			<Node name="{1e28c7f5-b49a-4c64-a0c0-35a7e0577c6c}">
+				<Prp name="relpath" type="S" value="TestProject1\TestProject1.mds.tcLS"/>
+			</Node>
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{07AD6294-784B-43BA-B0C8-4F55EC8538CA}"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{A72C5728-3057-4662-AE32-52AE0643C679}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables">
+				<Node name="datav4">
+					<Node name="var0">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="43003A005C005F004D00610069006E002000530074006F0072006100670065005C00540065007300740043006F006D0070006C006500740065005C0041006C00610072006D00430041004400200053006D006F006B0065002000540065007300740069006E0067005C0041006C00610072006D00430041004400200053006D006F006B006500200054006500730074002000460049006C00650073005C0041006C00610072006D00430041004400200053006D006F006B006500200054006F006F006C006200610072002E0078006D006C00"/>
+						</Node>
+						<Prp name="name" type="S" value="Toolbar_File"/>
+					</Node>
+					<Node name="var1">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="43003A005C005F004D00610069006E002000530074006F0072006100670065005C00540065007300740043006F006D0070006C006500740065005C0041006C00610072006D00430041004400200053006D006F006B0065002000540065007300740069006E0067005C0041006C00610072006D00430041004400200053006D006F006B006500200054006500730074002000460049006C00650073005C0041006C00610072006D00430041004400200042006100740074006500720079002000430061006C00630020002D00200053006D006F006B006500200054006500730074002000460069006C0065002E00630061006400"/>
+						</Node>
+						<Prp name="name" type="S" value="Test_File"/>
+					</Node>
+					<Node name="var2">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value="420069006C006C007900"/>
+						</Node>
+						<Prp name="name" type="S" value="Active_Tester"/>
+					</Node>
+					<Node name="var3">
+						<Node name="value">
+							<Prp name="strvalue" type="H" value=" "/>
+						</Node>
+						<Prp name="name" type="S" value="Var1"/>
+					</Node>
+				</Node>
+				<Prp name="version" type="I" value="4"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}" version="15.0">
+	<children>
+		<child name="BattCalc_P6_Check" key="{5C98401A-11B3-42F4-B230-8F8C30360CB3}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P6_Check" ID="{5C98401A-11B3-42F4-B230-8F8C30360CB3}" FileName="Regions\BattCalc_P6_Check.png" Update="False" />
+		</child>
+		<child name="BattCalc_P6_Check_Mask" key="{AA720679-FBDF-42DC-9A90-67712DD31B9A}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P6_Check_Mask" ID="{AA720679-FBDF-42DC-9A90-67712DD31B9A}" FileName="Regions\BattCalc_P6_Check_Mask.png" Update="False" />
+		</child>
+		<child name="BattCalc_P5_Check" key="{74C495CB-3AFC-43C1-A279-69D49C03E79A}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P5_Check" ID="{74C495CB-3AFC-43C1-A279-69D49C03E79A}" FileName="Regions\BattCalc_P5_Check.png" Update="False" />
+		</child>
+		<child name="BattCalc_P5_Check_Mask" key="{37F1A12E-40ED-4379-82F8-7292019FD50D}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P5_Check_Mask" ID="{37F1A12E-40ED-4379-82F8-7292019FD50D}" FileName="Regions\BattCalc_P5_Check_Mask.png" Update="False" />
+		</child>
+		<child name="BattCalc_P3_Check" key="{DEDDFD6E-3B60-4DE0-9487-43701B7AA899}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P3_Check" ID="{DEDDFD6E-3B60-4DE0-9487-43701B7AA899}" FileName="Regions\BattCalc_P3_Check.png" Update="False" />
+		</child>
+		<child name="BattCalc_P3_Check_Mask" key="{29E8203E-5DA2-4B5B-8A52-58372A057B68}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P3_Check_Mask" ID="{29E8203E-5DA2-4B5B-8A52-58372A057B68}" FileName="Regions\BattCalc_P3_Check_Mask.png" Update="False" />
+		</child>
+		<child name="BattCalc_P4_Check" key="{2E98D5A6-B56F-481D-BEDD-76A97F546C07}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P4_Check" ID="{2E98D5A6-B56F-481D-BEDD-76A97F546C07}" FileName="Regions\BattCalc_P4_Check.png" Update="False" />
+		</child>
+		<child name="BattCalc_P4_Check_Mask" key="{C9A6E468-7171-41FB-A910-7B6C7A47CFAE}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P4_Check_Mask" ID="{C9A6E468-7171-41FB-A910-7B6C7A47CFAE}" FileName="Regions\BattCalc_P4_Check_Mask.png" Update="False" />
+		</child>
+		<child name="BattCalc_P2_Check" key="{678CF555-EE33-4F01-BC6F-68819CE2066C}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P2_Check" ID="{678CF555-EE33-4F01-BC6F-68819CE2066C}" FileName="Regions\BattCalc_P2_Check.png" Update="False" />
+		</child>
+		<child name="BattCalc_P2_Check_Mask" key="{51ECFAAA-1000-4059-8ABA-90495F1B2DC0}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P2_Check_Mask" ID="{51ECFAAA-1000-4059-8ABA-90495F1B2DC0}" FileName="Regions\BattCalc_P2_Check_Mask.png" Update="False" />
+		</child>
+		<child name="BattCalc_P1_Check" key="{66BD5F84-1AA6-43E6-B787-9CB9EECF6275}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P1_Check" ID="{66BD5F84-1AA6-43E6-B787-9CB9EECF6275}" FileName="Regions\BattCalc_P1_Check.png" Update="False" />
+		</child>
+		<child name="BattCalc_P1_Check_Mask" key="{4026FABA-B01F-45E6-A6E6-E4B5F1E4A8B8}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P1_Check_Mask" ID="{4026FABA-B01F-45E6-A6E6-E4B5F1E4A8B8}" FileName="Regions\BattCalc_P1_Check_Mask.png" Update="False" />
+		</child>
+		<child name="BattCalc_P1again_Check" key="{38B47880-2BBC-4053-A3E0-47521110D5B0}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P1again_Check" ID="{38B47880-2BBC-4053-A3E0-47521110D5B0}" FileName="Regions\BattCalc_P1again_Check.png" Update="False" />
+		</child>
+		<child name="BattCalc_P1again_Check_Mask" key="{1DA51379-054D-4140-AFB1-F1601DC2734B}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P1again_Check_Mask" ID="{1DA51379-054D-4140-AFB1-F1601DC2734B}" FileName="Regions\BattCalc_P1again_Check_Mask.png" Update="False" />
+		</child>
+		<child name="CircuitCalcs_P5_SLC1_Check" key="{94FA2A9C-869C-42BF-9EA3-E80D710ACD92}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="CircuitCalcs_P5_SLC1_Check" ID="{94FA2A9C-869C-42BF-9EA3-E80D710ACD92}" FileName="Regions\CircuitCalcs_P5_SLC1_Check.png" Update="False" />
+		</child>
+		<child name="CircuitCalcs_P5_SLC1_Check_Mask" key="{625089CF-0711-4C8E-A1D2-5DF631AB813A}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="CircuitCalcs_P5_SLC1_Check_Mask" ID="{625089CF-0711-4C8E-A1D2-5DF631AB813A}" FileName="Regions\CircuitCalcs_P5_SLC1_Check_Mask.png" Update="False" />
+		</child>
+		<child name="CircuitCalcs_P6_NAC2_Check" key="{73C2F169-745E-4CB1-A37D-E559A33C1556}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="CircuitCalcs_P6_NAC2_Check" ID="{73C2F169-745E-4CB1-A37D-E559A33C1556}" FileName="Regions\CircuitCalcs_P6_NAC2_Check.png" Update="False" />
+		</child>
+		<child name="CircuitCalcs_P6_NAC2_Check_Mask" key="{7B4456BB-F6CE-4914-9364-2B01E0BAAAED}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="CircuitCalcs_P6_NAC2_Check_Mask" ID="{7B4456BB-F6CE-4914-9364-2B01E0BAAAED}" FileName="Regions\CircuitCalcs_P6_NAC2_Check_Mask.png" Update="False" />
+		</child>
+		<child name="BattCalc_P6_2024_Check" key="{A8A6DC84-1ADA-4FB2-A3E3-BFD19E330BE7}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P6_2024_Check" ID="{A8A6DC84-1ADA-4FB2-A3E3-BFD19E330BE7}" FileName="Regions\BattCalc_P6_2024_Check.png" Update="False" />
+		</child>
+		<child name="BattCalc_P6_2024_Check_Mask" key="{1DD2E6C4-F4B4-47E6-B22C-A5C718AE5B4D}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P6_2024_Check_Mask" ID="{1DD2E6C4-F4B4-47E6-B22C-A5C718AE5B4D}" FileName="Regions\BattCalc_P6_2024_Check_Mask.png" Update="False" />
+		</child>
+		<child name="BattCalc_P5_2024_Check" key="{E1B67F3A-FC70-483B-963A-D2F9A3F93D4E}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P5_2024_Check" ID="{E1B67F3A-FC70-483B-963A-D2F9A3F93D4E}" FileName="Regions\BattCalc_P5_2024_Check.png" Update="False" />
+		</child>
+		<child name="BattCalc_P5_2024_Check_Mask" key="{9026A8AF-A71F-4515-AE36-1FD3BD4D5DB8}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P5_2024_Check_Mask" ID="{9026A8AF-A71F-4515-AE36-1FD3BD4D5DB8}" FileName="Regions\BattCalc_P5_2024_Check_Mask.png" Update="False" />
+		</child>
+		<child name="BattCalc_P3_2024_Check" key="{A819C260-00FB-4CBA-8053-617AB7FCAAFC}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P3_2024_Check" ID="{A819C260-00FB-4CBA-8053-617AB7FCAAFC}" FileName="Regions\BattCalc_P3_2024_Check.png" Update="False" />
+		</child>
+		<child name="BattCalc_P3_2024_Check_Mask" key="{A5916745-37D0-4AEC-8214-C6ABB10EB993}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P3_2024_Check_Mask" ID="{A5916745-37D0-4AEC-8214-C6ABB10EB993}" FileName="Regions\BattCalc_P3_2024_Check_Mask.png" Update="False" />
+		</child>
+		<child name="BattCalc_P4_2024_Check" key="{E10AFDF2-9289-47C4-BD7E-0FF29D12D9E3}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P4_2024_Check" ID="{E10AFDF2-9289-47C4-BD7E-0FF29D12D9E3}" FileName="Regions\BattCalc_P4_2024_Check.png" Update="False" />
+		</child>
+		<child name="BattCalc_P4_2024_Check_Mask" key="{94C32CF7-5D89-459B-89A5-167557BBAC21}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P4_2024_Check_Mask" ID="{94C32CF7-5D89-459B-89A5-167557BBAC21}" FileName="Regions\BattCalc_P4_2024_Check_Mask.png" Update="False" />
+		</child>
+		<child name="BattCalc_P2_2024_Check" key="{1CB92CBE-07BD-4C69-BC72-D11B4CD4CB99}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P2_2024_Check" ID="{1CB92CBE-07BD-4C69-BC72-D11B4CD4CB99}" FileName="Regions\BattCalc_P2_2024_Check.png" Update="False" />
+		</child>
+		<child name="BattCalc_P2_2024_Check_Mask" key="{8AC2A2A4-300E-440A-87FE-2F0DB3E12F39}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P2_2024_Check_Mask" ID="{8AC2A2A4-300E-440A-87FE-2F0DB3E12F39}" FileName="Regions\BattCalc_P2_2024_Check_Mask.png" Update="False" />
+		</child>
+		<child name="BattCalc_P1_2024_Check" key="{0619848D-4142-4803-AF0B-84E0A345077D}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P1_2024_Check" ID="{0619848D-4142-4803-AF0B-84E0A345077D}" FileName="Regions\BattCalc_P1_2024_Check.png" Update="False" />
+		</child>
+		<child name="BattCalc_P1_2024_Check_Mask" key="{2BD68096-41A6-4D5E-A666-CE8BDDC2780E}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="BattCalc_P1_2024_Check_Mask" ID="{2BD68096-41A6-4D5E-A666-CE8BDDC2780E}" FileName="Regions\BattCalc_P1_2024_Check_Mask.png" Update="False" />
+		</child>
+		<child name="CircuitCalc_P5_SLC1_2024_Check" key="{8346CE3B-C049-4F64-BA57-BD2291C07BD9}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="CircuitCalc_P5_SLC1_2024_Check" ID="{8346CE3B-C049-4F64-BA57-BD2291C07BD9}" FileName="Regions\CircuitCalc_P5_SLC1_2024_Check.png" Update="False" />
+		</child>
+		<child name="CircuitCalc_P5_SLC1_2024_Check_Mask" key="{5C6BABDB-DE1F-48B6-AE1E-BED82705822C}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="CircuitCalc_P5_SLC1_2024_Check_Mask" ID="{5C6BABDB-DE1F-48B6-AE1E-BED82705822C}" FileName="Regions\CircuitCalc_P5_SLC1_2024_Check_Mask.png" Update="False" />
+		</child>
+		<child name="CircuitCalc_P6_NAC2_2024_Check" key="{1FA4D15E-9DBD-4AAD-8E6C-BE603B0DFB7B}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="CircuitCalc_P6_NAC2_2024_Check" ID="{1FA4D15E-9DBD-4AAD-8E6C-BE603B0DFB7B}" FileName="Regions\CircuitCalc_P6_NAC2_2024_Check.png" Update="False" />
+		</child>
+		<child name="CircuitCalc_P6_NAC2_2024_Check_Mask" key="{EF445648-16D7-4276-9F5B-6587C87D6AAB}">
+			<data signature="{1FD256C1-604C-48A1-9990-9A9329139EC4}" version="15.0" caption="CircuitCalc_P6_NAC2_2024_Check_Mask" ID="{EF445648-16D7-4276-9F5B-6587C87D6AAB}" FileName="Regions\CircuitCalc_P6_NAC2_2024_Check_Mask.png" Update="False" />
+		</child>
+	</children>
+</Root>

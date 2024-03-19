@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{62402E6C-6E6D-4AA5-9AFF-5A20AD691C44}" version="15.0">
+	<LLP>
+		<LLEvent Type="MouseMove" X="4" Y="58" Delay="125" />
+		<LLEvent Type="MouseMove" X="5" Y="58" Delay="46" />
+		<LLEvent Type="MouseMove" X="6" Y="58" Delay="16" />
+		<LLEvent Type="MouseMove" X="6" Y="59" Delay="16" />
+		<LLEvent Type="MouseMove" X="7" Y="59" Delay="15" />
+		<LLEvent Type="MouseMove" X="7" Y="59" Delay="16" />
+		<LLEvent Type="MouseMove" X="7" Y="59" Delay="31" />
+		<LLEvent Type="MouseMove" X="7" Y="59" Delay="172" />
+		<LLEvent Type="MouseDown" Button="Left" X="7" Y="59" Delay="297" />
+		<LLEvent Type="MouseUp" Button="Left" X="7" Y="59" Delay="78" />
+	</LLP>
+</Root>
