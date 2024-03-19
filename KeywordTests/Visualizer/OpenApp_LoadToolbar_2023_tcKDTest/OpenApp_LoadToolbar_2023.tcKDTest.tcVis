@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
 	<data key="{AE5F7F14-BB06-4D96-8449-DECEE7EE771B}">
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45365.9230489583" objectName="Aliases.AlarmCADx64.dlgTipOfTheDay.btnClose" objectLeft="323" objectTop="242" objectRight="398" objectBottom="265" clickPointX="360" clickPointY="253" imageFileName="visImage0.png" storageFileName="visImage0.7z" needUpdate="False" rectColor="255" />
-		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45365.9231062963" objectName="Aliases.AlarmCADx64.dlgOpen" objectLeft="0" objectTop="0" objectRight="1141" objectBottom="702" clickPointX="-1" clickPointY="-1" imageFileName="visImage1.png" storageFileName="visImage1.7z" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="2" kind="0" dateTime="45370.8545035532" objectName="Aliases.AlarmCADx64.dlgTipOfTheDay.btnClose" objectLeft="323" objectTop="242" objectRight="398" objectBottom="265" clickPointX="360" clickPointY="253" imageFileName="visImage0.png" storageFileName="visImage0.7z" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="6" kind="0" dateTime="45370.8545628472" objectName="Aliases.AlarmCADx64.dlgOpen" objectLeft="0" objectTop="0" objectRight="1141" objectBottom="702" clickPointX="-1" clickPointY="-1" imageFileName="visImage1.png" storageFileName="visImage1.7z" needUpdate="False" rectColor="255" />
 	</data>
 </Root>
