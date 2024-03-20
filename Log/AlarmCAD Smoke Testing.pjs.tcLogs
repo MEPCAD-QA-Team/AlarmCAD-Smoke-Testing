@@ -20,53 +20,7 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="folders"/>
-		<Node name="logs">
-			<Node name="log idx=0000">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45365.673010544"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{8BF3D25C-28DB-42D7-906C-315A6B23E238}"/>
-				<Prp name="nameofroot" type="S" value="AlarmCAD Smoke Testing"/>
-				<Prp name="relpath" type="S" value="3_14_2024_4_09 PM_08_111\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0001">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45365.6856235301"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{CAB7E0AC-E5E9-4CA1-854D-33126B99A23B}"/>
-				<Prp name="nameofroot" type="S" value="AlarmCAD Smoke Testing"/>
-				<Prp name="relpath" type="S" value="3_14_2024_4_27 PM_17_873\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0002">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45370.6030327546"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{9807E610-50B2-4915-9529-A78750A76ADB}"/>
-				<Prp name="nameofroot" type="S" value="AlarmCAD Smoke Testing"/>
-				<Prp name="relpath" type="S" value="3_19_2024_2_28 PM_22_30\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0003">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45370.6044796065"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{CE110AC3-6978-41ED-B7BD-6C067EC57A17}"/>
-				<Prp name="nameofroot" type="S" value="AlarmCAD Smoke Testing"/>
-				<Prp name="relpath" type="S" value="3_19_2024_2_30 PM_27_39\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-			<Node name="log idx=0004">
-				<Prp name="caption" type="S" value=""/>
-				<Prp name="datetime" type="D" value="45370.6065023032"/>
-				<Prp name="description" type="S" value=""/>
-				<Prp name="key" type="S" value="{DE97D27F-F1F9-4E32-800B-7D2321D21A49}"/>
-				<Prp name="nameofroot" type="S" value="AlarmCAD Smoke Testing"/>
-				<Prp name="relpath" type="S" value="3_19_2024_2_33 PM_21_799\Description.tcLog"/>
-				<Prp name="status" type="I" value="0"/>
-			</Node>
-		</Node>
+		<Node name="logs"/>
 		<Prp name="signature" type="S" value="{6511DB44-2372-47B8-8349-ADA0DB4D9E14}"/>
 		<Prp name="version" type="S" value="11.0"/>
 	</Node>

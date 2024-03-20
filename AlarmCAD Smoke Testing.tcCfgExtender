@@ -21,7 +21,7 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{07AD6294-784B-43BA-B0C8-4F55EC8538CA}"/>
+				<Prp name="activity" type="S" value="{2AA92A74-7A22-445E-A907-8BE9753F8B08}"/>
 			</Node>
 			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
 				<Node name="{5ebbb2e4-7b67-4834-975a-841f62b7a07c}">
@@ -34,7 +34,7 @@
 						<Node name="editor">
 							<Node name="{4f9540d5-d9ab-44cd-8dca-73f5f2e7a572}"/>
 							<Node name="{8c45957c-f4b3-4dd7-9212-49cbd350f69f}">
-								<Prp name="key" type="S" value="{CC0CEAC9-6B4E-4DB0-B4DE-A518107BAE67}"/>
+								<Prp name="key" type="S" value="{D9D4E1DF-F74C-4F2D-87C9-1DE2F3891936}"/>
 							</Node>
 							<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}">
 								<Node name="main">
@@ -47,7 +47,7 @@
 								<Node name="toolbox">
 									<Prp name="active" type="S" value="Frequently Used"/>
 								</Node>
-								<Prp name="key" type="S" value="{0F1A23D1-113C-4AA2-9CA1-EB8F85C6547D}"/>
+								<Prp name="key" type="S" value="{C4492489-1A64-4826-AF26-69464FB2F6E9}"/>
 							</Node>
 							<Node name="{eb7c9d82-bc63-4167-ad95-a6b053bbda71}"/>
 							<Prp name="editor" type="S" value="{9EA0B725-516B-46BB-9D88-097A8B31C532}"/>
@@ -59,7 +59,7 @@
 						<Node name="editor">
 							<Node name="{4f9540d5-d9ab-44cd-8dca-73f5f2e7a572}"/>
 							<Node name="{8c45957c-f4b3-4dd7-9212-49cbd350f69f}">
-								<Prp name="key" type="S" value="{6BC87541-E0D4-4C0A-9E49-FA066EE99E14}"/>
+								<Prp name="key" type="S" value="{AD59E830-79DD-4E06-9AA9-769789010843}"/>
 							</Node>
 							<Node name="{90fe4d39-229d-4887-ac6f-07b02ce523fc}">
 								<Node name="main">
@@ -72,7 +72,7 @@
 								<Node name="toolbox">
 									<Prp name="active" type="S" value="Frequently Used"/>
 								</Node>
-								<Prp name="key" type="S" value="{D94ABD92-F6EF-4CBD-BD38-358971B90E15}"/>
+								<Prp name="key" type="S" value="{2E5E1E27-9E15-4857-AFCA-222063229BE1}"/>
 							</Node>
 							<Node name="{eb7c9d82-bc63-4167-ad95-a6b053bbda71}"/>
 							<Prp name="editor" type="S" value="{6B797C90-DC5C-4699-BD62-8B20A0C3930E}"/>
@@ -142,7 +142,9 @@
 					</Node>
 					<Node name="5">
 						<Node name="editor">
-							<Node name="{93765269-c25d-4cd5-b6bf-5d7454869c93}"/>
+							<Node name="{93765269-c25d-4cd5-b6bf-5d7454869c93}">
+								<Prp name="key" type="S" value="{3A1D395E-98F0-4675-980F-941CBD7C5CD6}"/>
+							</Node>
 							<Prp name="editor" type="S" value="{31AD13ED-DB4A-4C2D-B19A-C01ADA6628BE}"/>
 							<Prp name="focused" type="S" value="{F39B4290-6D53-4DE2-9089-4B6C5712D710}"/>
 						</Node>
@@ -244,6 +246,7 @@
 						<Node name="keywordtests"/>
 						<Node name="llcollection1"/>
 						<Node name="script"/>
+						<Node name="stores"/>
 						<Node name="testedapps"/>
 					</Node>
 				</Node>
