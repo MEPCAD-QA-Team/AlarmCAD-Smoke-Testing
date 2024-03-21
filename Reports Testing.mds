@@ -21,12 +21,12 @@
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="2024 Battery Calculations" key="{C533C668-811D-4926-B8A3-E3004832F824}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8C09C5D9-1FF8-4C80-A974-923BF2EC2165}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="2024 Battery Calculations" key="{C533C668-811D-4926-B8A3-E3004832F824}" group="False" parallel="False" enabled="False" testMoniker="KDT\{8C09C5D9-1FF8-4C80-A974-923BF2EC2165}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
 			</testItem>
-			<testItem name="2024 Circuit Calculations" key="{28FB42E9-4DF9-44F9-AFB7-1A5D510240D2}" group="False" parallel="False" enabled="False" testMoniker="KDT\{35F384AB-BDBE-40CE-8F5F-05F6E0909F80}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="2024 Circuit Calculations" key="{28FB42E9-4DF9-44F9-AFB7-1A5D510240D2}" group="False" parallel="False" enabled="False" testMoniker="KDT\{35F384AB-BDBE-40CE-8F5F-05F6E0909F80}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="False">
 				<testParameters />
 				<environments activeCloud="SWT" />
 				<children />
